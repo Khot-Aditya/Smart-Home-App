@@ -17,11 +17,6 @@ import androidx.navigation.ui.NavigationUI;
 
 public class MainActivity extends AppCompatActivity {
 
-    /*
-        TODO-
-            1.
-     */
-
     private ActivityMainBinding binding;
 
     @Override

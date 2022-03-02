@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.ad.app.home.adapter.RecyclerAdapter;
 import com.ad.app.home.databinding.FragmentHomeBinding;
 import com.ad.app.home.model.DeviceModel;
+import com.ad.app.home.utils.UtilClass;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,42 +39,42 @@ public class HomeFragment extends Fragment {
         DeviceModel deviceModel;
 
         deviceModel = new DeviceModel();
-        deviceModel.setName("Spot Light 1");
+        deviceModel.setName(UtilClass.DEVICE_1);
         deviceModel.setActive(false);
         deviceModel.setAutomatic(false);
         deviceModel.setRunTime(10);
         list.add(deviceModel);
 
         deviceModel = new DeviceModel();
-        deviceModel.setName("Spot Light 1");
+        deviceModel.setName(UtilClass.DEVICE_2);
+        deviceModel.setActive(true);
+        deviceModel.setAutomatic(false);
+        deviceModel.setRunTime(10);
+        list.add(deviceModel);
+
+        deviceModel = new DeviceModel();
+        deviceModel.setName(UtilClass.DEVICE_3);
         deviceModel.setActive(false);
         deviceModel.setAutomatic(false);
         deviceModel.setRunTime(10);
         list.add(deviceModel);
 
         deviceModel = new DeviceModel();
-        deviceModel.setName("Spot Light 1");
+        deviceModel.setName(UtilClass.DEVICE_4);
         deviceModel.setActive(false);
         deviceModel.setAutomatic(false);
         deviceModel.setRunTime(10);
         list.add(deviceModel);
 
         deviceModel = new DeviceModel();
-        deviceModel.setName("Spot Light 1");
+        deviceModel.setName(UtilClass.DEVICE_5);
         deviceModel.setActive(false);
         deviceModel.setAutomatic(false);
         deviceModel.setRunTime(10);
         list.add(deviceModel);
 
         deviceModel = new DeviceModel();
-        deviceModel.setName("Spot Light 1");
-        deviceModel.setActive(false);
-        deviceModel.setAutomatic(false);
-        deviceModel.setRunTime(10);
-        list.add(deviceModel);
-
-        deviceModel = new DeviceModel();
-        deviceModel.setName("Spot Light 1");
+        deviceModel.setName(UtilClass.DEVICE_6);
         deviceModel.setActive(false);
         deviceModel.setAutomatic(false);
         deviceModel.setRunTime(10);
